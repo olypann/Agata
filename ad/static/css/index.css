@@ -1,0 +1,60 @@
+:root {  
+    --black: #1e1610;
+    --red: #f95142;
+    --beige: #fcce8d;
+    --blue: #405987;
+    --white: #f3ede3;
+    --orange: #ff8f46;
+    --purple: #4d5eb3;
+}
+
+* {
+    color: var(--red);
+    font-family: '04B';
+}
+
+
+* {
+    text-align: center;
+}
+
+@font-face {
+	font-family: '04B';
+	src: url('../fonts/bubble.ttf'); 
+
+}
+
+body {
+    background: var(--beige);
+    background: linear-gradient(45deg, --beige 30%, --orange 100%);
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+
+.container {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.ad {
+    margin-top: 50px;
+    
+}
+
+.title {
+
+    font-size: 60px;
+}
+
+.title_text {
+    text-shadow: 15px 15px var(--purple);
+}
+
+
+
+
+
+
