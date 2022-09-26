@@ -5,7 +5,7 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="../static/css/index.css">
     <link rel="stylesheet" href="../static/css/other.css">
-    <link href="../static/fonts/bubble.ttf" rel="stylesheet">
+    <!-- <link href="../static/fonts/bubble.ttf" rel="stylesheet"> -->
     <!-- <link rel="shortcut icon" type="image/png" href="../static/images/rat.ico"/> -->
 </head>
 <body>
@@ -13,13 +13,22 @@
         
 
         <div class="title">
-            <h1 class="title_text">AGATAAA</h1>
+            <h1 class="title_text">Generate a Book!</h1>
         </div>
 
-        <div>
-            <h1>What do you want to advertise?</h1>
-            <input type="text"> -->
-            <button>New Ad!</button>
+        <div class="main">
+            <p class="question">Do you want to specify a genre?</p>
+
+            <label for="genre_label">Choose a genre:</label>
+            <select name="genres" id="genres">
+                <option value="romance">Romance</option>
+                <option value="fantasy">Fantasy</option>
+                <option value="comedy">Comedy</option>
+                <option value="horror">Horror</option>
+                <option value="horror">SciFi</option>
+            </select>
+
+            <div class="btn">New Ad!</div>
         </div>
 
         <div class="ad">
